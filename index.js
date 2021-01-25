@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
         "#6ed1f0",
     ];
 
-    // Testing sound
+    //Sound effects 
     pads.forEach((pad, index) => {
         pad.addEventListener("click", function () {
             sounds[index].currentTime = 0;
